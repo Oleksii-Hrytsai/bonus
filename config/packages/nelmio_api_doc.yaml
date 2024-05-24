@@ -1,0 +1,6 @@
+nelmio_api_doc:
+    documentation:
+        info:
+            title: 'Bonus API'
+            description: 'API для роботи з бонусними акціями'
+            version: '1.0.0'

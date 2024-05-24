@@ -1,0 +1,9 @@
+FROM php:7.4-fpm
+
+RUN apt-get update && apt-get install -y \
+    libjpeg-dev \
+    libfreetype6-dev \
+    libxpm-dev \
+    libvpx-dev \
+    libpng-dev \
+    && rm -rf /var/lib/apt/lists/*
